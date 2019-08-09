@@ -28,7 +28,10 @@ const server = new ApolloServer({
   dataSources: () => ({
     launchAPI: new LaunchAPI(),
     userAPI: new UserAPI({ store })
-  })
+  }),
+  engine: {
+    apiKey: "service:jjcav84-1350:B8eLKWiwkJaTwmLUlz5WdA"
+  }
 });
 
 server.listen().then(({ url }) => {
