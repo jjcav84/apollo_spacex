@@ -26,8 +26,8 @@
 	},
 	"devDependencies": {
 		"@graphql-codegen/cli": "1.5.0",
-		"apollo-link": "1.2.12",
-		"apollo-link-http": "1.5.15",
+		"apollo-link": "1.2.13",
+		"apollo-link-http": "1.5.16",
 		"jest": "24.8.0",
 		"nock": "10.0.6",
 		"node-fetch": "2.6.0"
